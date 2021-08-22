@@ -4,6 +4,18 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 
+#nav {
+  float: right;
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#nav a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
 h1 {
   text-align: left;
   margin: auto;
