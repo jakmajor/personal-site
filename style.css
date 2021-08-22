@@ -4,6 +4,22 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 
+.pointer {
+position: absolute;
+left:50px;
+top:50px;
+width: 40px; 
+pointer-events: none;
+display:flex;
+}
+
+.pointer img {
+    width: 40px;
+}
+.pointer .imgage {
+    display: flex;
+}
+
 #nav {
   position: absolute;
   top: 50px;

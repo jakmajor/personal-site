@@ -1,4 +1,5 @@
-const h2 = document.createElement('h2');
-h2.textContent = ""; 
-
-document.querySelector('body').appendChild(h2); 
+document.addEventListener("mousemove", e => {
+    var p = document.querySelector(".pointer");
+    p.style.left = e.pageX + 'px';
+    p.style.top = e.pageY + 'px';
+  });
