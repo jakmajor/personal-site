@@ -5,10 +5,10 @@ body {
 }
 
 #nav {
-  float: right;
+  position: absolute;
+  top: 50px;
+  right: 50px;
   display: block;
-  padding: 10px;
-  margin-right: 10px;
 }
 
 #nav a {
@@ -16,12 +16,29 @@ body {
   text-decoration: none;
 }
 
-h1 {
+a:visited {
+  color: #0000ee;
+}
+
+h1.index {
+  line-height: 45px;
   text-align: left;
   margin: auto;
   width: 50%;
   float: left;
 
   margin-top: 350px;
+  margin-left: 20px;
+}
+
+#about {
+  text-align: center;
+  width: 45%;
+  margin: 0px auto;
+  margin-top: 250px;
+  line-height: 45px;
+  font-family: "Epilogue", sans-serif;
+  text-align: left;
+  float: left;
   margin-left: 20px;
 }
